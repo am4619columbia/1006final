@@ -21,6 +21,10 @@ def hello():
 def classpython():
     return render_template("1006.html")
 
+@app.route("/myClasses")
+def myClasses():
+    return render_template("classes.html")
+
 #start the server
 if __name__ == "__main__":
     app.run()
