@@ -19,7 +19,7 @@ def hello():
 
 @app.route("/1006")
 def classpython():
-    return "Welcome to 1006!"
+    return render_template("1006.html")
 
 #start the server
 if __name__ == "__main__":
