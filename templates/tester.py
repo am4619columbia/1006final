@@ -1,4 +1,3 @@
-import numpy as np
 import pandas as pd
 
 myData = {'Item': ['NBA Team','Grocery Store','Dining Hall'],
